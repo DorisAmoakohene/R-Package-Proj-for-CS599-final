@@ -1,5 +1,5 @@
 Package: CS599.pca.ADA
-Title: PCA Package for Unsupervised learning CS599
+Title: PCA Package for Unsupervised learning class CS599
 Version: 2023.12.03
 Authors@R: 
     person("Doris", "Amoakohene",
