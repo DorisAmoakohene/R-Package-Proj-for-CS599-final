@@ -12,7 +12,7 @@ PCA(X, k)
 \item{k}{An integer specifying the number of principal components to retain}
 }
 \value{
-A matrix containing the projected data onto the selected principal components
+A list that has the mean vector, orthogonal matrix, Factor scores,and Eigenvalues
 }
 \description{
 This function performs Principal Component Analysis (PCA) on the input data matrix X
@@ -20,8 +20,7 @@ and returns the projected data onto the selected principal components
 }
 \examples{
 #Example dataset
-PCA.dat <- matrix(c(2, 4, 1, 3, 5, 7, 6, 8, 9), nrow = 3, ncol = 3, byrow = TRUE)
-test.dat <- as.numeric(PCA.dat)
+test.dat <- matrix(rnorm(500), nrow=100, ncol=5)
 result.PCA <- PCA(test.dat, k = 2)
 print(result.PCA)
 PCA

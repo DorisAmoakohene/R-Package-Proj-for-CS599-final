@@ -5,9 +5,11 @@ Authors@R:
     person("Doris", "Amoakohene",
     email = "daa464@nau.edu",
     role = c("aut", "cre"))
-Description: CS599.DAA.PCA is a comprehensive package designed specifically for the CS599 class, providing a wide range of functions for Principal Component Analysis (PCA) and related tasks. The package aims to support users in performing various operations, including dimensionality reduction, data exploration, and model interpretation using PCA.
+Description: CS599.pca.ADA is a comprehensive package designed specifically for the CS599 class, providing a wide range of functions for Principal Component Analysis (PCA) and related tasks. The package aims to support users in performing various operations, including dimensionality reduction, data exploration, and model interpretation using PCA.
 License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
+Suggests: 
+   stats
 RoxygenNote: 7.2.3
 
